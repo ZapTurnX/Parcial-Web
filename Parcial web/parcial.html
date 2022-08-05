@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>formulario</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style1.css">
+</head>
+<body>
+    <div class="page">
+        <div id="form1" class="form">
+          <h3>Formulario de afiliacion</h3>
+          <form action="Fichatecnica.html" method="get" class="login-form">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">person</i>
+              <input id="nombre" name="nombre" type="text" placeholder="Nombre" class="validate"/>
+              <label for="nombre" class="active">Nombre completo</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="email" name="email" type="text" placeholder="Email" class="validate"/>
+              <label for="Email"class="active">Email</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input id="telefono" name="telefono" type="number" placeholder="telefono" class="validate"/>
+              <label for="telefono"class="active">Telefono</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">favorite</i>
+              <input id = "gustos" type="text"/>
+              <label for="gustos" class="active">Gustos</label>
+              <a id = gustosbutton class="waves-effect waves-light btn-large">Gustos</a>
+            </div>
+          <div id="form2" class="form">
+            		<div class="row">
+			    				<div id="table" class="col s12 m4 l8">
+			    					<div class="form-group">
+			    						<table id="tablagustos" class="table table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th>Gusto</th>
+                            <th>%</th>
+                            <th>edit</th>
+                        </tr>
+                        </thead>
+                        </table>
+			    					</div>
+			    				</div>
+			    			</div>
+          </div>
+          </form>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+      <script src="script.js"></script>
+</body>
+</html>
